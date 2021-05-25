@@ -12,22 +12,14 @@ public class Login extends Registrar {
 		return login;
 	}
 	public void setLogin(String login) {
-		if(login.length() != 0) {
 			this.login = login;
-		} else {
-			System.out.println ("Campo vazio, favor preencher!");
-		}
 	}
 
 	public String getSenha() {
 		return senha;
 	}
 	public void setSenha(String senha) {
-		if(senha.length() != 0) {
-			this.senha = senha;			
-		} else {
-			System.out.println ("Campo vazio, favor preencher!");
-		}
+			this.senha = senha;
 	}
 
 	public void lerLogin(Scanner entrada) {

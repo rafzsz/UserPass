@@ -16,7 +16,6 @@ public class SQLDatabaseConnection {
 	public static String connectionUrl = "jdbc:sqlserver://localhost:1433;" + "databaseName=db_UserPass;"
 			+ "integratedSecurity=true;";
 
-//	Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
 	public static boolean login(String usuario, String senha) throws ClassNotFoundException {
 
 		ResultSet resultSet = null;
